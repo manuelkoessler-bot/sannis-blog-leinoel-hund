@@ -103,14 +103,6 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Ist Leinöl für den Hund giftig?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Nein, Leinöl gilt nicht als giftig. Die Blausäure-Frage betrifft Leinsamen, nicht das Öl. Die österreichische Behörde AGES bewertet Leinöl für den Menschen als gesundheitlich unbedenklich. Beim Hund ist vor allem die passende Menge entscheidend."
-          }
-        },
-        {
-          "@type": "Question",
           "name": "Wie viel Leinöl darf ein Hund am Tag bekommen?",
           "acceptedAnswer": {
             "@type": "Answer",
@@ -139,6 +131,14 @@
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "Bei zu viel Öl auf einmal kann der Kot weich werden. Wer mit kleinen Mengen beginnt und über ein bis zwei Wochen steigert, vermeidet das meist. Bei anhaltenden Verdauungsproblemen die Menge reduzieren und die Tierarztpraxis fragen."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Ist Leinöl für den Hund giftig?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Nein, Leinöl gilt nicht als giftig. Die Blausäure-Frage betrifft Leinsamen, nicht das Öl. Die österreichische Behörde AGES bewertet Leinöl für den Menschen als gesundheitlich unbedenklich. Beim Hund ist vor allem die passende Menge entscheidend."
           }
         },
         {
@@ -381,6 +381,15 @@
   .compare .card .card-title{font-family:'Poppins',sans-serif;font-weight:600;margin:0 0 10px;font-size:18px;line-height:1.25}
   .oils .oil .card-title{font-family:'Poppins',sans-serif;font-weight:600;margin:6px 0 4px;font-size:16.5px;line-height:1.25}
   @media(max-width:600px){.hero img{object-position:78% center}}
+  /* Mini-CTA nach dem Inhaltsverzeichnis */
+  .cta-mini{display:flex;align-items:center;gap:16px;flex-wrap:wrap;background:var(--lav-100);border:1px solid var(--line);border-radius:var(--radius);padding:16px 20px;margin:0 0 30px}
+  .cta-mini p{margin:0;flex:1;min-width:220px;font-size:16px;color:var(--ink)}
+  .cta-mini .btns{display:flex;gap:10px;flex-wrap:wrap}
+  .cta-mini a.mbtn{display:inline-flex;align-items:center;background:var(--purple);color:#fff !important;font-weight:600;font-size:14px;padding:10px 18px;border-radius:50px;white-space:nowrap;text-decoration:none}
+  .cta-mini a.mbtn.ghost{background:#fff;color:var(--purple) !important;border:1.5px solid var(--purple)}
+  .cta-mini a.mbtn:hover{text-decoration:none;opacity:.92}
+  /* KI-Kennzeichnung (EU AI Act Art. 50) */
+  .ai-label{position:absolute;right:14px;bottom:12px;background:rgba(33,27,46,.55);color:#fff;font-size:11px;letter-spacing:.3px;padding:4px 9px;border-radius:50px;backdrop-filter:blur(4px);pointer-events:none}
 </style>
 </head>
 <body>
@@ -405,6 +414,7 @@
 
 <section class="hero">
   <img src="hero-leinoel-hund.webp" alt="Lachende Frau umarmt ihren Golden Retriever auf einer Alpenwiese mit blühendem Lein, Leinöl für den Hund" width="1344" height="752" fetchpriority="high">
+  <span class="ai-label">KI-generiertes Bild</span>
   <div class="hero-overlay">
     <span class="eyebrow">Tierernährung · Bio-Leinöl</span>
     <h1>Leinöl für den Hund: Dosierung, Wirkung und worauf du achten solltest</h1>
@@ -421,15 +431,15 @@
 <main>
 <article>
 
-<p class="lead">Kennst du diesen Blick? Der Napf steht noch nicht ganz am Boden, und schon wedelt der ganze Hund. In unserer Alpin Manufaktur in Wald am Arlberg hören wir eine Frage von Hundefreunden besonders oft: Darf Leinöl auch in den Napf? Verständlich, denn frisch gepresstes Leinöl ist eine der reichsten pflanzlichen Omega 3 Quellen überhaupt. Für den Hund heißt das: Ein kleiner Löffel Leinöl im Futter ergänzt die Ration um wertvolle Fettsäuren, als Orientierung rund ein Teelöffel pro 10 kg Körpergewicht am Tag. Ob Leinöl für den Hund unbedenklich ist, wie viel dein Hund verträgt und woran du gutes Leinöl erkennst: Hier sind die Antworten.</p>
+<p class="lead">Kennst du diesen Blick? Der Napf steht noch nicht ganz am Boden, und schon wedelt der ganze Hund. In unserer Alpin Manufaktur in Wald am Arlberg hören wir eine Frage von Hundefreunden besonders oft: Darf Leinöl auch in den Napf? Verständlich, denn frisch gepresstes Leinöl ist eine der reichsten pflanzlichen Omega 3 Quellen überhaupt. Für den Hund heißt das: Ein kleiner Löffel Leinöl im Futter ergänzt die Ration um wertvolle Fettsäuren, als Orientierung rund ein Teelöffel pro 10 kg Körpergewicht am Tag. Was Leinöl deinem Hund bringt, wie viel er verträgt und woran du gutes Leinöl erkennst: Hier sind die Antworten.</p>
 
 <div class="takeaways">
   <h2>● Das Wichtigste in Kürze</h2>
   <ul>
-    <li><strong>Nicht giftig:</strong> Die Blausäure-Frage betrifft Leinsamen, nicht das Öl. Die österreichische Behörde AGES bewertet Leinöl für den Menschen als unbedenklich, im Napf zählt vor allem die passende Menge.</li>
     <li><strong>Wertvolle Fettsäuren:</strong> Leinöl besteht zu rund 55 % aus der pflanzlichen Omega 3 Fettsäure Alpha-Linolensäure und ergänzt die tägliche Ration.</li>
     <li><strong>Dosierung:</strong> Als Orientierungswert gilt etwa ein Teelöffel (5 ml) pro 10 kg Körpergewicht am Tag. Langsam anfangen und mit kleinen Mengen starten.</li>
     <li><strong>Kalorien beachten:</strong> Ein Teelöffel Leinöl liefert rund 40 kcal. Bei kleinen oder ruhigen Hunden zählt das mit.</li>
+    <li><strong>Nicht giftig:</strong> Die Blausäure-Frage betrifft Leinsamen, nicht das Öl. Die österreichische Behörde AGES bewertet Leinöl für den Menschen als unbedenklich, im Napf zählt vor allem die passende Menge.</li>
     <li><strong>Qualität entscheidet:</strong> Bio-Saat, frische Pressung, ein hoher Omega 3 Anteil und eine lichtgeschützte Flasche. Ein bitterer Geschmack zeigt, dass ein Öl nicht mehr frisch ist.</li>
   </ul>
 </div>
@@ -437,26 +447,30 @@
 <nav class="toc" aria-label="Inhaltsverzeichnis">
   <p class="toc-title">Inhalt dieses Beitrags</p>
   <ol>
-    <li><a href="#duerfen">Dürfen Hunde Leinöl bekommen?</a></li>
     <li><a href="#wirkung">Was bringt Leinöl dem Hund?</a></li>
     <li><a href="#dosierung">Wie viel Leinöl für den Hund?</a></li>
     <li><a href="#fuettern">Leinöl richtig füttern</a></li>
-    <li><a href="#nebenwirkungen">Wann ist es zu viel?</a></li>
     <li><a href="#qualitaet">Welches Leinöl für den Hund?</a></li>
+    <li><a href="#duerfen">Ist Leinöl giftig?</a></li>
+    <li><a href="#nebenwirkungen">Wann ist es zu viel?</a></li>
     <li><a href="#leinsamen">Leinöl oder Leinsamen?</a></li>
     <li><a href="#faq">Häufige Fragen</a></li>
   </ol>
 </nav>
 
-<!-- ============ SECTION 1 ============ -->
-<h2 id="duerfen">Dürfen Hunde <span class="accent">Leinöl</span> bekommen? Ist es giftig?</h2>
-<p class="answer">Ja, Hunde dürfen Leinöl bekommen, es ist nicht giftig. Die oft gestellte Frage nach Blausäure betrifft Leinsamen, nicht das Öl. Die österreichische Agentur für Gesundheit und Ernährungssicherheit (AGES) hält für den Menschen fest, dass eine gesundheitliche Beeinträchtigung durch Leinöl als ausgeschlossen gilt. Eine eigene Bewertung für Hunde gibt es nicht, im Napf zählt deshalb vor allem die passende Menge.</p>
+<!-- ============ MINI-CTA (TAUSCH-BLOCK: später Hunde-Leinöl) ============ -->
+<div class="cta-mini">
+  <p>Frisch aus unserer Alpin Manufaktur: das Bio-Leinöl extra nativ und die Bio-Leinsamen-Pellets für Hund und Pferd.</p>
+  <div class="btns">
+    <a class="mbtn" href="https://sannis.at/produkt/sannis-bio-leinsamen-pellets/">Zu den Pellets</a>
+    <a class="mbtn ghost" href="https://sannis.at/produkt/sannis-bio-leinoel-extra-nativ/">Zum Bio-Leinöl</a>
+  </div>
+</div>
 
-<p>Woher kommt die Sorge? Leinsamen enthalten von Natur aus sogenannte cyanogene Glykoside, aus denen bei der Verdauung Blausäure entstehen kann. Diese Stoffe sind wasserlöslich und gehen beim Pressen praktisch nicht ins Öl über. Die Details dazu stehen in der <a href="https://www.ages.at/download/sdl-eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDk0NTkyMDAsImV4cCI6NDA3MDkwODgwMCwidXNlciI6MCwiZ3JvdXBzIjpbMCwtMV0sImZpbGUiOiJmaWxlYWRtaW5cL0FHRVNfMjAyMlwvNl9GT1JTQ0hVTkdcL1dpc3Nlbi1Ba3R1ZWxsXC9MZWJlbnNtaXR0ZWxzaWNoZXJoZWl0XC8yMDE3XC9DeWFub2dlbmVfR2x5a29zaWRlX2luX0xlaW5zYW1lbl9BR0VTX3dpc3Nlbl9vbmxpbmVfYWt0dWVsbF9ESC5wZGYiLCJwYWdlIjoyMzkwfQ.qw6nRtKcJL0u2P8LmGSHW7d0hNLwwGPXO1Fv1gXE80s/Cyanogene_Glykoside_in_Leinsamen_AGES_wissen_online_aktuell_DH.pdf" target="_blank" rel="noopener">AGES-Bewertung zu cyanogenen Glykosiden in Leinsamen</a>. Wie das beim Menschen mit geschroteten Samen aussieht, erklären wir im Beitrag <a href="https://sannis.at/wissen/blog/leinsamen-geschrotet-oder-ganz/">Leinsamen geschrotet oder ganz</a>.</p>
 
 <!-- ============ SECTION 2 ============ -->
 <h2 id="wirkung">Was bringt <span class="accent">Leinöl</span> dem Hund? Wirkung auf Haut und Fell</h2>
-<p class="answer">Leinöl ergänzt die Ration deines Hundes um <a href="https://sannis.at/wissen/blog/pflanzliches-omega-3/">pflanzliche Omega 3 Fettsäuren</a>: Rund 55 % des Öls sind Alpha-Linolensäure, dazu kommt Linolsäure. Fettsäuren gehören zu einer ausgewogenen Hundeernährung für Haut und Fell. Was die Forschung zum Fell sagt, liest du gleich weiter unten.</p>
+<p class="answer">Leinöl ergänzt die Ration deines Hundes um <a href="https://sannis.at/wissen/blog/pflanzliches-omega-3/">pflanzliche Omega 3 Fettsäuren</a>: Rund 55 % des Öls sind Alpha-Linolensäure, dazu kommt Linolsäure. Fettsäuren gehören zu einer ausgewogenen Hundeernährung für Haut und Fell. Was die Forschung zum Fell sagt, liest du gleich hier.</p>
 
 <p>Leinöl ist eines der Pflanzenöle mit dem höchsten Anteil an Omega 3. Das macht es für viele Hundebesitzer zur ersten Wahl, wenn sie das Futter mit einem natürlichen Öl abrunden möchten, gerade bei selbst zubereiteten Rationen und beim Barfen, wo das Futter sonst wenig pflanzliches Omega 3 mitbringt.</p>
 
@@ -492,7 +506,7 @@
 
 <figure class="img-inline">
   <img src="leinoel-im-hundenapf.webp" alt="Leinöl tropft von einem Holzlöffel in einen Hundenapf mit frischem Futter, daneben blaue Leinblüten, Leinöl für den Hund" loading="lazy" width="1100" height="829">
-  <figcaption>Einfach frisch über das Futter träufeln.</figcaption>
+  <figcaption>Einfach frisch über das Futter träufeln. (KI-generiertes Bild)</figcaption>
 </figure>
 
 <p>Beim <strong>Trockenfutter</strong> das Öl über die Kroketten träufeln und kurz durchmischen, so verteilt es sich gleichmäßig. Beim <strong>Nassfutter</strong> und beim <strong>Barfen</strong> einfach unterrühren. Am besten gibst du es täglich zur Hauptmahlzeit, so wird es zur festen Routine.</p>
@@ -502,12 +516,6 @@
 <div class="capsule">
   Ein Löffel Gold. Ein Napf voller Freude.
 </div>
-
-<!-- ============ SECTION 5 ============ -->
-<h2 id="nebenwirkungen">Nebenwirkungen beim Hund: <span class="accent">Durchfall oder zu viel Leinöl?</span></h2>
-<p class="answer">Zu viel Öl auf einmal kann beim Hund zu weichem Kot oder Durchfall führen, und auf Dauer zu zusätzlichen Kilos. Wer langsam anfängt und bei der Orientierungsmenge bleibt, beugt dem einfach vor. Treten Verdauungsprobleme auf, die Menge reduzieren und bei anhaltenden Beschwerden die Tierarztpraxis fragen.</p>
-
-<p>Das gilt für jedes Öl: Öl ist für den Hund eine konzentrierte Energiequelle, und der Darm braucht ein paar Tage, um sich an eine neue Zutat zu gewöhnen. Die tierärztliche Ernährungsberatung der Universität Guelph nennt <a href="https://ovcpetnutrition.uoguelph.ca/2024/12/04/the-abcs-of-omega-3s" target="_blank" rel="noopener">Durchfall und Gewichtszunahme</a> als typische Folgen einer zu hohen Omega 3 Ergänzung. Deshalb lieber mit einem Viertel der Menge starten und in Ruhe steigern.</p>
 
 <!-- ============ SECTION 6 ============ -->
 <h2 id="qualitaet">Welches <span class="accent">Leinöl</span> für den Hund? Darauf kommt es an</h2>
@@ -534,6 +542,18 @@
   </a>
 </div>
 <!-- ============ /TAUSCH-BLOCK ============ -->
+
+<!-- ============ SECTION 1 ============ -->
+<h2 id="duerfen">Ist <span class="accent">Leinöl</span> für den Hund giftig? Was du zur Sicherheit wissen solltest</h2>
+<p class="answer">Nein, Leinöl gilt nicht als giftig, Hunde dürfen es bekommen. Die oft gestellte Frage nach Blausäure betrifft Leinsamen, nicht das Öl. Die österreichische Agentur für Gesundheit und Ernährungssicherheit (AGES) hält für den Menschen fest, dass eine gesundheitliche Beeinträchtigung durch Leinöl als ausgeschlossen gilt. Eine eigene Bewertung für Hunde gibt es nicht, im Napf zählt deshalb vor allem die passende Menge.</p>
+
+<p>Woher kommt die Sorge? Leinsamen enthalten von Natur aus sogenannte cyanogene Glykoside, aus denen bei der Verdauung Blausäure entstehen kann. Diese Stoffe sind wasserlöslich und gehen beim Pressen praktisch nicht ins Öl über. Die Details dazu stehen in der <a href="https://www.ages.at/download/sdl-eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDk0NTkyMDAsImV4cCI6NDA3MDkwODgwMCwidXNlciI6MCwiZ3JvdXBzIjpbMCwtMV0sImZpbGUiOiJmaWxlYWRtaW5cL0FHRVNfMjAyMlwvNl9GT1JTQ0hVTkdcL1dpc3Nlbi1Ba3R1ZWxsXC9MZWJlbnNtaXR0ZWxzaWNoZXJoZWl0XC8yMDE3XC9DeWFub2dlbmVfR2x5a29zaWRlX2luX0xlaW5zYW1lbl9BR0VTX3dpc3Nlbl9vbmxpbmVfYWt0dWVsbF9ESC5wZGYiLCJwYWdlIjoyMzkwfQ.qw6nRtKcJL0u2P8LmGSHW7d0hNLwwGPXO1Fv1gXE80s/Cyanogene_Glykoside_in_Leinsamen_AGES_wissen_online_aktuell_DH.pdf" target="_blank" rel="noopener">AGES-Bewertung zu cyanogenen Glykosiden in Leinsamen</a>. Wie das beim Menschen mit geschroteten Samen aussieht, erklären wir im Beitrag <a href="https://sannis.at/wissen/blog/leinsamen-geschrotet-oder-ganz/">Leinsamen geschrotet oder ganz</a>.</p>
+
+<!-- ============ SECTION 5 ============ -->
+<h2 id="nebenwirkungen">Nebenwirkungen beim Hund: <span class="accent">Durchfall oder zu viel Leinöl?</span></h2>
+<p class="answer">Zu viel Öl auf einmal kann beim Hund zu weichem Kot oder Durchfall führen, und auf Dauer zu zusätzlichen Kilos. Wer langsam anfängt und bei der Orientierungsmenge bleibt, beugt dem einfach vor. Treten Verdauungsprobleme auf, die Menge reduzieren und bei anhaltenden Beschwerden die Tierarztpraxis fragen.</p>
+
+<p>Das gilt für jedes Öl: Öl ist für den Hund eine konzentrierte Energiequelle, und der Darm braucht ein paar Tage, um sich an eine neue Zutat zu gewöhnen. Die tierärztliche Ernährungsberatung der Universität Guelph nennt <a href="https://ovcpetnutrition.uoguelph.ca/2024/12/04/the-abcs-of-omega-3s" target="_blank" rel="noopener">Durchfall und Gewichtszunahme</a> als typische Folgen einer zu hohen Omega 3 Ergänzung. Deshalb lieber mit einem Viertel der Menge starten und in Ruhe steigern.</p>
 
 <!-- ============ SECTION 7 ============ -->
 <h2 id="leinsamen">Leinöl oder Leinsamen für den Hund?</h2>
@@ -585,10 +605,6 @@
 <h2 id="faq">Häufige Fragen zu Leinöl für den Hund</h2>
 <div class="faq">
   <details open>
-    <summary>Ist Leinöl für den Hund giftig?</summary>
-    <p>Nein, Leinöl gilt nicht als giftig. Die Blausäure-Frage betrifft Leinsamen, nicht das Öl. Die österreichische Behörde AGES bewertet Leinöl für den Menschen als gesundheitlich unbedenklich. Beim Hund ist vor allem die passende Menge entscheidend.</p>
-  </details>
-  <details>
     <summary>Wie viel Leinöl darf ein Hund am Tag bekommen?</summary>
     <p>Als Orientierungswert gilt etwa ein Teelöffel (5 ml) pro 10 kg Körpergewicht am Tag: ein halber Teelöffel bis 5 kg, zwei Teelöffel bei 20 kg, rund drei Teelöffel ab 30 kg. Mit einem Viertel der Menge beginnen und langsam steigern.</p>
   </details>
@@ -603,6 +619,10 @@
   <details>
     <summary>Bekommt mein Hund von Leinöl Durchfall?</summary>
     <p>Bei zu viel Öl auf einmal kann der Kot weich werden. Wer mit kleinen Mengen beginnt und über ein bis zwei Wochen steigert, vermeidet das meist. Bei anhaltenden Verdauungsproblemen die Menge reduzieren und die Tierarztpraxis fragen.</p>
+  </details>
+  <details>
+    <summary>Ist Leinöl für den Hund giftig?</summary>
+    <p>Nein, Leinöl gilt nicht als giftig. Die Blausäure-Frage betrifft Leinsamen, nicht das Öl. Die österreichische Behörde AGES bewertet Leinöl für den Menschen als gesundheitlich unbedenklich. Beim Hund ist vor allem die passende Menge entscheidend.</p>
   </details>
   <details>
     <summary>Darf ich normales Leinöl aus dem Supermarkt nehmen?</summary>
